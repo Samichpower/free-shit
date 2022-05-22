@@ -1,6 +1,7 @@
 body { /* Adds side margin to entire page */
   margin: 0px 150px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(255, 243, 230);
 }
 
 /* NAVBAR */
@@ -33,12 +34,19 @@ ul a {
 
 
 /* IMAGE AND BOTTOM TEXT */
+.item {
+  vertical-align: top;
+  text-align: center;
+  float: right;
+  margin-left: 400px;
+  background-color: white;
+}
+
 .item img {
   height: 500px;
   width: auto;
-  float: right;
-  margin-left: 400px;
 }
+
 
 /* SECTION LEFT OF IMAGE */
 h2 {
