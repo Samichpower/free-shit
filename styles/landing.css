@@ -1,0 +1,42 @@
+body { /* Adds side margin to entire page */
+  margin: 0px 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav { /* Makes heading and links in navbar all in one line, also adds decorative border to the bottom */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 80px;
+}
+
+.nav-heading {
+  text-align: left;
+  font-size: 30px;
+}
+
+.nav-links {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+ul a {
+  margin-left: 40px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+div img {
+  height: 500px;
+  width: auto;
+  float: right;
+  margin-left: 400px;
+}
+
+h2 {
+  font-size: 70px;
+}
