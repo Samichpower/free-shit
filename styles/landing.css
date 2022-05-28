@@ -9,6 +9,7 @@ body { /* Adds side margin to entire page */
   font-family: "Times new roman", serif;
 }
 
+
 /* NAVBAR */
 nav { /* Makes heading and links in navbar all in one line, also adds decorative border to the bottom */
   display: flex;
@@ -38,7 +39,7 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 
 
 /* NAVBAR LINK DECORATING*/
-.nav-style, .direct {
+.nav-style, .button {
   text-decoration: none;
 }
 .nav-style:link {
@@ -98,3 +99,28 @@ h2 {
   margin-bottom: 0px;
 }
 
+.direct li { /* puts links side-by-side */
+  display: inline;
+}
+
+.container {
+  margin: 65px 0px 65px 0px;
+  font-weight: bold;
+}
+
+.b-left, .b-right {
+  padding: 20px;
+}
+
+.b-left {
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border: 2px solid rgb(255, 115, 0);
+  margin-right: 50px;
+}
+
+.b-right {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
