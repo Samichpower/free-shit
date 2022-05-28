@@ -1,7 +1,7 @@
 body { /* Adds side margin to entire page */
   margin: 0px 150px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: rgb(255, 249, 244);
+  background-color: rgb(255, 252, 250);
 }
 
 .fancy {
@@ -12,14 +12,13 @@ body { /* Adds side margin to entire page */
 nav { /* Makes heading and links in navbar all in one line, also adds decorative border to the bottom */
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid black;
-  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(201, 201, 201);
   margin-bottom: 80px;
 }
 
 .nav-heading {
   text-align: left;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .nav-links {
@@ -54,6 +53,20 @@ ul a { /* controls the spacing between the nav-links */
   text-decoration: underline;
   text-decoration-color: rgb(255, 115, 0);
   text-underline-offset: 7px;
+}
+
+.button {
+  background-color: rgb(255, 208, 0);
+  padding: 15px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: rgb(255, 200, 0);
+}
+
+.dec-orange {
+  color: rgb(255, 115, 0);
 }
 
 
