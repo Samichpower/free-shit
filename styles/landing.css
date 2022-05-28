@@ -2,6 +2,7 @@ body { /* Adds side margin to entire page */
   margin: 0px 150px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(255, 252, 250);
+  font-size: 18px;
 }
 
 .fancy {
@@ -27,7 +28,7 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
   margin-top: 35px;
 }
 
-ul a { /* controls the spacing between the nav-links */
+.nav-links a { /* controls the spacing between the nav-links */
   margin-left: 40px;
 }
 
@@ -37,7 +38,7 @@ ul a { /* controls the spacing between the nav-links */
 
 
 /* NAVBAR LINK DECORATING*/
-.nav-style {
+.nav-style, .direct {
   text-decoration: none;
 }
 .nav-style:link {
@@ -55,12 +56,17 @@ ul a { /* controls the spacing between the nav-links */
   text-underline-offset: 7px;
 }
 
-.button {
+.fancy .nav-style {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-button {
   background-color: rgb(255, 208, 0);
   padding: 15px;
 }
 
-.button:hover {
+.nav-button:hover {
   text-decoration: none;
   background-color: rgb(255, 200, 0);
 }
@@ -91,3 +97,4 @@ h2 {
   font-size: 70px;
   margin-bottom: 0px;
 }
+
