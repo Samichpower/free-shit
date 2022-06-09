@@ -1,5 +1,5 @@
 body { /* Adds side margin to entire page */
-  margin: 0px 120px;
+  margin: 0px 150px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(255, 252, 250);
   font-size: 18px;
@@ -83,6 +83,7 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
   text-align: center;
   float: right;
   background-color: white;
+  border: 1px solid black;
 }
 
 .item img {
@@ -114,6 +115,7 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 
 .direct a {
   padding: 20px;
+  display: inline-block;
 }
 
 .b-left {
