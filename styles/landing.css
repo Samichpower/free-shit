@@ -151,21 +151,27 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 .flex-boxes p {
   flex: 1;
   border: 2px solid black;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   list-style-type: none;
-  height: 500px;
+  height: 450px;
   margin: 20px;
-  padding: 10px;
+  padding: 15px;
   font-size: 30px;
 }
 
 .box-img img {
   display: block;
   margin: auto;
-  padding-top: 10px;
+  margin-top: 20px;
+  width: 370px;
+  height: auto;
+  border: 2px solid black;
 }
 
-.organs img {
-  width: 300px;
-  height: auto;
+.guide .spend {
+  background-color: rgb(255, 255, 191);
+}
+
+.points img {
+  width: 350px;
 }
