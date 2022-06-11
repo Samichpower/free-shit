@@ -142,6 +142,7 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 .guide h3 {
   width: 1000px;
   margin: 30px auto;
+  font-weight: 100;
 }
 
 .guide .flex-boxes {
@@ -174,4 +175,10 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 
 .points img {
   width: 350px;
+}
+
+.ending {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
 }
