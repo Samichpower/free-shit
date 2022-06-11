@@ -136,4 +136,36 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 .guide {
   text-align: center;
   border-top: 1px solid rgb(201, 201, 201);
+  font-size: larger;
+}
+
+.guide p {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.guide .flex-boxes {
+  display: flex;
+}
+
+.flex-boxes p {
+  flex: 1;
+  border: 2px solid black;
+  background-color: white;
+  list-style-type: none;
+  height: 500px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.box-img img {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.organs img {
+  width: 300px;
+  height: auto;
 }
