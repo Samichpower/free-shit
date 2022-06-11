@@ -179,6 +179,6 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
 
 .ending {
   text-align: center;
-  font-size: larger;
+  font-size: 100px;
   font-weight: bold;
 }
