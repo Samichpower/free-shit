@@ -139,8 +139,8 @@ nav { /* Makes heading and links in navbar all in one line, also adds decorative
   font-size: larger;
 }
 
-.guide p {
-  width: 800px;
+.guide h3 {
+  width: 1000px;
   margin: 30px auto;
 }
 
